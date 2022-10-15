@@ -17,6 +17,8 @@ For the Neural network model:
 * The hypertuned model
 * The figure evaluating the training performance
 * Kt_trials folder containing information about each hypertuning trial
+
 results.csv is the aggregation of results from all models, including the ones that did not perform as well as the top 10 presented in this report.
+
 utils contains the .yml file to rebuild the environment.
 
