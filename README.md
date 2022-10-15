@@ -1,2 +1,9 @@
-# news_stock_market
-The purpose of this project was to predict stock price movements of Apple Inc. based on news articles. We used the BoW approach and sentiment analysis of titles of news articles related to Apple. The best result was achieved with GaussianNB Classifier with bigrams and sentiment analysis, with precision as a main performance metric. The last section refers to limitations and possible future considerations in case more in-depth analysis is of interest.
+# Predicting stock price movements based on news messages
+
+* Target variables: classifying news articles in order to predict whether the closing price of the day is higher (1) or lower or equal than the opening price (0).
+* Dataset: Data from https://www.kaggle.com/datasets/gennadiyr/us-equities-news-data?resource=download, which has already been preprocessed to remove punctuation
+    * Scope: Apple stock (AAPL) relateed news 
+* Key models:
+    1. Data Processing: Bag of words (BOW)
+    2. Data Reduction: Random Forest Classifier
+    3. Best model: GaussianNB
