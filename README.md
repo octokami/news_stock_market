@@ -1,2 +1,2 @@
 # news_stock_market
-Predict stock price movements of Apple Inc. based on news articles. We used the BoW approach and sentiment analysis of titles of news articles related to Apple.
+The purpose of this project was to predict stock price movements of Apple Inc. based on news articles. We used the BoW approach and sentiment analysis of titles of news articles related to Apple. The best result was achieved with GaussianNB Classifier with bigrams and sentiment analysis, with precision as a main performance metric. The last section refers to limitations and possible future considerations in case more in-depth analysis is of interest.
